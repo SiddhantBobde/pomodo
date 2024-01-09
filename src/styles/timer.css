@@ -1,0 +1,95 @@
+.timer-container {
+    width: 800px;
+    height: 450px;
+    /* background-color: red; */
+    margin: auto;
+    border: 10px solid #679edd;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.break-session {
+    border-color: #e95959;
+}
+
+.timer-value>span {
+    font-size: 200px;
+}
+
+.timer-actions {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.action-btn {
+    width: 180px;
+    height: 75px;
+    font-size: 25px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: black;
+}
+
+.settings-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.settings-input-div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+}
+
+.settings-input-label {
+    font-size: 30px;
+}
+
+.settings-input {
+    height: 40px;
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: black;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+.settings-input:focus {
+    outline: none;
+    border-bottom: 3px solid burlywood;
+}
+
+.apply-btn {
+    color: black;
+    font-size: 20px;
+    padding: 1.5rem 5rem;
+    border-radius: 20px;
+}
+
+.settings-actions-btn-container {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.settings-btn-container {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.settings-btn:disabled {
+    cursor: not-allowed;
+}
